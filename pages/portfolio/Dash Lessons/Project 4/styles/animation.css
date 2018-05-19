@@ -1,0 +1,31 @@
+
+@keyframes blink {
+    50% {
+      background: radial-gradient(circle, red 15%, transparent 40%), #cc5;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      background: -webkit-radial-gradient(circle, red 15%, transparent 40%), #cc5;
+    }
+  }
+  @-moz-keyframes blink {
+    50% {
+      background: -moz-radial-gradient(circle, red 15%, transparent 40%), #cc5;
+    }
+  }
+  @keyframes dance {
+    from {
+      left: 800px; 
+    }
+  }
+  @-webkit-keyframes dance {
+    from {
+      left: 800px; 
+    }
+  }
+  @-moz-keyframes dance {
+    from {
+      left: 800px; 
+    }
+  }
