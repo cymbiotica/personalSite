@@ -1,8 +1,8 @@
 $(document).ready(function () {
     
-    // When eyes button is clicked, toggle laser class on brain
+/*     // When eyes button is clicked, toggle laser class on brain
 $(".flash").click(function() {
-  $(".brain").toggleClass('laser');
+  $(".brain").toggleClass(".laser");
 });
 
 // When color button is clicked...
@@ -27,6 +27,6 @@ $(".color").click(function() {
 
     $(".move").click(function(){
         $("img").toggle();
-    });
+    }); */
 
 });
