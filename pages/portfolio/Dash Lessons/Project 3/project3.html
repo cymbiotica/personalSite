@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+  <title>Project 3</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+<link rel="stylesheet" href="/pages/portfolio/Dash Lessons/Project 3/styles/style_base.css">
+
+</head>
+
+<body>
+<h1>Cym's Sabers</h1>
+<h2>We have the High Ground!</h2>
+<div class="first">
+  <p>Blue Khyber Saber<span class="price">300 credits</span><br />
+  <small>This light saber combines a beauty of form with traditional function. The protective claws that grace the base of the blade are bold and intimidating.  </small></p>
+</div>
+
+<div class="second">
+  <p>Red Khyber Saber <span class="price">600 credits</span><br />
+  <small>In the tradition of the Sith, this blade's crystal has been bled to generate the traditional red color. </small></p>
+</div>
+  
+<div class="third">
+  <p>Guardian Khyber saber <span class="price">500 credits</span><br />
+  <small>A green colored blade, a mark of the Guarians of the Order of the Jedi. A piece of their history in every blade. </small></p>
+</div>
+
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+
+</body>
