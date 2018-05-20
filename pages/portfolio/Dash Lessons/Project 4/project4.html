@@ -1,63 +1,62 @@
 <!DOCTYPE html>
+
 <head>
     <title>Personal Site </title>
     <link href="https://fonts.googleapis.com/css?family=Poller+One" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="/styles/style_base.css">
-    
-   <!-- <link rel="stylesheet" href="/styles/media.css">
+
+    <!-- <link rel="stylesheet" href="/styles/media.css">
     <link rel="stylesheet" href="/styles/animation.css"> -->
 </head>
- 
+
 <body>
-<div class="robot">
-  <div class="beep"></div>
-  <div class="brain"></div>
-  <div class="torso">
-    <div class="left">j</div>
-    <div class="right">j</div>
-  </div>
-  <div class="foot"></div>
-</div>
+    <div class="robot">
+        <div class="beep"></div>
+        <div class="brain"></div>
+        <div class="torso">
+            <div class="left">j</div>
+            <div class="right">j</div>
+        </div>
+        <div class="foot"></div>
+    </div>
 
-<button class="flash">laser eyes on/off</button>
-<button class="color">change color!</button>
-<button class="move">groove</button>
-<img src="/resources/img/dance_cotter.gif">
-<!-- <script src="/pages/portfolio/Dash Lessons/Project 4/js/scripts.js"></script>
+    <button class="flash">laser eyes on/off</button>
+    <button class="color">change color!</button>
+    <button class="move">groove</button>
+    <img src="/resources/img/dance_cotter.gif">
+    <!-- <script src="/pages/portfolio/Dash Lessons/Project 4/js/scripts.js"></script>
 -->
-<script>
-    // When eyes button is clicked, toggle laser class on brain
-    $(".flash").click(function() {
-    $(".brain").toggleClass('laser');
-});
+    <script>
+        // When eyes button is clicked, toggle laser class on brain
+        $(".flash").click(function () {
+            $(".brain").toggleClass('laser');
+        });
 
 
-// When color button is clicked...
-$(".color").click(function() {
-// assign each named color a random number 0-255
-//
-var red = Math.floor(Math.random() * 255);
-var green = Math.floor(Math.random() * 255);
-var blue = Math.floor(Math.random() * 255);
+        // When color button is clicked...
+        $(".color").click(function () {
+            // assign each named color a random number 0-255
+            //
+            var red = Math.floor(Math.random() * 255);
+            var green = Math.floor(Math.random() * 255);
+            var blue = Math.floor(Math.random() * 255);
 
-//Display the three values in an alert window
-//alert(red + "," + green + "," + blue);
+            //Display the three values in an alert window
+            //alert(red + "," + green + "," + blue);
 
-//gen an rgba for the css
-var randomRGBA = 'rgba('+red+','+green+','+blue+',1)';
+            //gen an rgba for the css
+            var randomRGBA = 'rgba(' + red + ',' + green + ',' + blue + ',1)';
 
-//testing the above
-//alert(randomRGBA);
+            //testing the above
+            //alert(randomRGBA);
 
-$("body").css("background", randomRGBA);  
-});
+            $("body").css("background", randomRGBA);
+        });
 
-$(".move").click(function(){
-    $("img").toggle();
-});
-
-
-</script>
+        $(".move").click(function () {
+            $("img").toggle();
+        });
+    </script>
 
 </body>

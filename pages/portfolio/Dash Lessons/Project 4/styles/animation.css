@@ -1,31 +1,36 @@
 
 @keyframes blink {
     50% {
-      background: radial-gradient(circle, red 15%, transparent 40%), #cc5;
+        background: radial-gradient(circle, red 15%, transparent 40%), #cc5;
     }
-  }
-  @-webkit-keyframes blink {
+}
+
+@-webkit-keyframes blink {
     50% {
-      background: -webkit-radial-gradient(circle, red 15%, transparent 40%), #cc5;
+        background: -webkit-radial-gradient(circle, red 15%, transparent 40%), #cc5;
     }
-  }
-  @-moz-keyframes blink {
+}
+
+@-moz-keyframes blink {
     50% {
-      background: -moz-radial-gradient(circle, red 15%, transparent 40%), #cc5;
+        background: -moz-radial-gradient(circle, red 15%, transparent 40%), #cc5;
     }
-  }
-  @keyframes dance {
+}
+
+@keyframes dance {
     from {
-      left: 800px; 
+        left: 800px;
     }
-  }
-  @-webkit-keyframes dance {
+}
+
+@-webkit-keyframes dance {
     from {
-      left: 800px; 
+        left: 800px;
     }
-  }
-  @-moz-keyframes dance {
+}
+
+@-moz-keyframes dance {
     from {
-      left: 800px; 
+        left: 800px;
     }
-  }
+}
